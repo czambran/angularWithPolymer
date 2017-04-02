@@ -7,8 +7,18 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="/assets/bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="/assets/bower_components/px-modal/px-modal.html" />
 </head>
 <body>
+  <div>
   <app-root>Loading...</app-root>
+  </div>
+  <div>
+  <px-modal modal-heading="Sign in required" btn-modal-positive="Sign In" btn-modal-negative="Cancel">
+    <button class="btn btn--primary modal-trigger">Launch Modal - Pure Polymer</button>
+    Lorem ipsum dolor sit amet.
+  </px-modal>
+  </div>
 </body>
 </html>
